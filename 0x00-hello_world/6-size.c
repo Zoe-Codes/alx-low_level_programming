@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *
- *main - Entry point
+ *main - Prints the size of functions
  *
  *Return: Always 0 (Success)
  */
