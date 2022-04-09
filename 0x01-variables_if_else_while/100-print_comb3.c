@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - A program that prints all possible different combinations of two digits
+ * main - Program that prints all possible different combinations of 2 digits
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int n, m;
 
 for (n = 48; n <= 56; n++)
 {
-for (m = 49; m <= 57; m++)
+for (m = 49; m <=57; m++)
 {
 if (m > n)
 {
@@ -18,8 +18,8 @@ putchar(n);
 putchar(m);
 if (n != 56 || m != 57)
 {
-putchar (',');
-putchar (' ');
+putchar(',');
+putchar(' ');
 }
 }
 }
