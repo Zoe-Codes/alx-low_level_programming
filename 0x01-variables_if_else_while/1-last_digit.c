@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Print if the number is negative, zero, or positive
+ * main - Print if a number is negative, zero, or positive
  *
  * Return: Always 0 (Success)
  */
@@ -17,15 +17,15 @@ l = n % 10;
 
 if (l > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, 1);
+printf("Last digit of %d is %d and is greater than 5\n", n, l);
 }
-else if (l == 0)
+else id (l == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, 1);
+printf("Last digit of %d is %d and is 0\n", n, l);
 }
 else
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 }
 return (0);
 }
