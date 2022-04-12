@@ -2,15 +2,15 @@
 /**
  * main - Program that prints all possible different combinations of 2 digits
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n, m;
+int n; m;
 
 for (n = 48; n <= 56; n++)
 {
-for (m = 49; m <=57; m++)
+for (m = 49; m <= 57; m++)
 {
 if (m > n)
 {
